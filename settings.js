@@ -25,7 +25,7 @@ global.mess = {
 global.owner = [process.env.OWNER_NUMBER] || ['94711453097'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
 
 module.exports = {    
-SESSION_ID: process.env.SESSION_ID ||'HRKU-0d4a88d5-3d56-4029-8283-470025f5553a',
+SESSION_ID: process.env.SESSION_ID ||'HRKU-dbfd3010-fea0-4220-9c8b-c947111dff64',
 POSTGRESQL_URL: process.env.POSTGRESQL_URL || 'postgres://izumimd_meje_user:0Vhm5vKGZ7ORt2FlJBQf4d6EtRdeuE8z@dpg-cn0o2imn7f5s73fa46q0-a.frankfurt-postgres.render.com/izumimd_meje',
 PREFIX:  process.env.PREFIX || ['.'] ,
 LANG:  process.env.LANG || 'En' ,    
@@ -35,8 +35,8 @@ AUTO_TYPING:  process.env.AUTO_TYPING  || false  ,
 AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,
 AUTO_READ:  process.env.AUTO_READ  || false  ,
 AUTO_BIO:  process.env.AUTO_BIO  || true  ,    
-ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,            
-WORK_TYPE: process.env.WORK_TYPE || 'private'  ,
+ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || true ,            
+WORK_TYPE: process.env.WORK_TYPE || 'public'  ,
 ANTI_LINK: process.env.ANTI_LINK || true  ,
 ANTI_BOT: process.env.ANTI_BOT || false  ,
 OWNER_NUMBER: process.env.OWNER_NUMBER || '923346580757'  ,    
@@ -44,10 +44,10 @@ ALIVE: process.env.ALIVE || `default`,
 OWNER_NAME: process.env.OWNER_NAME || 'Junaid' ,     
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,    
 AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
-AUTO_STICKER: process.env.AUTO_STICKER || true  ,
+AUTO_STICKER: process.env.AUTO_STICKER | true,
 WELCOME:  process.env.WELCOME  || true ,    
 NUMBER_212_BLOCK: process.env.NUMBER_212_BLOCK || false  ,
 FOOTER: process.env.FOOTER ||  '©ＶＡＪＩＲＡ - ＭＤ - Ｖ4',
-LOGO: process.env.LOGO || `https://telegra.ph/file/03f1eccdcb525a5e1a6ad.jpg` ,
-IMAGE: process.env.IMAGE || `https://telegra.ph/file/03f1eccdcb525a5e1a6ad.jpg`     
+LOGO: process.env.LOGO || `https://ibb.co/TrWgKmQ` ,
+IMAGE: process.env.IMAGE || `https://ibb.co/TrWgKmQ`     
 };
